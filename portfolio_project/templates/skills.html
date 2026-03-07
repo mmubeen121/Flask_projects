@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills - {{brand}}</title>
+
+    <style>
+      body {
+        font-family: Arial;
+        background: #0f172a;
+        color: white;
+        margin: 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10%;
+        background: #020617;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+
+      .logo {
+        color: #38bdf8;
+      }
+
+      .section {
+        padding: 80px 10%;
+        text-align: center;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+      .skill {
+        background: #020617;
+        padding: 10px 18px;
+        border-radius: 6px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 30px;
+        background: #020617;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h2 class="logo">Mubeen</h2>
+
+      <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="section">
+      <h1>Skills</h1>
+
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">Flask</div>
+        <div class="skill">SQLAlchemy</div>
+        <div class="skill">REST APIs</div>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">Git</div>
+        <div class="skill">Docker</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Mubeen</p>
+    </footer>
+  </body>
+</html>
